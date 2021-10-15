@@ -6,11 +6,11 @@
         <b-card-group deck>
             <b-card header="CRUD" header-tag="header">
                 <b-card-text>Make new crud action</b-card-text>
-                    <b-button  variant="primary">Go CRUD</b-button>
+                    <b-button href="/crud" variant="primary">Go CRUD</b-button>
             </b-card>
             <b-card header="Tic Tac Toe" header-tag="header">
                 <b-card-text>Go game page and play</b-card-text>
-                <b-button href="/home" variant="success">Go Game</b-button>
+                <b-button href="/game" variant="success">Go Game</b-button>
             </b-card>
         </b-card-group>
     </div>

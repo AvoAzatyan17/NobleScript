@@ -14,6 +14,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/',[App\Http\Controllers\HomeController::class, 'index']);
+Route::get('/crud',[App\Http\Controllers\HomeController::class, 'crud']);
+Route::get('/game',[App\Http\Controllers\HomeController::class, 'game']);
 
 Auth::routes();
 

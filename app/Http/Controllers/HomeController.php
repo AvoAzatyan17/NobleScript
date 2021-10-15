@@ -25,4 +25,12 @@ class HomeController extends Controller
     {
         return view('welcome');
     }
+    public function crud(){
+
+        return view('crud');
+    }
+    public function game(){
+
+        return view('game');
+    }
 }

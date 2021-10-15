@@ -2,7 +2,6 @@
 
 @section('NewContent')
             <div id="app">
-                <index-component></index-component>
+                <game-component></game-component>
             </div>
 @endsection
-

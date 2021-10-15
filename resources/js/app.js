@@ -4,6 +4,8 @@
  * building robust, powerful web applications using Vue and Laravel.
  */
 
+import CrudComponent from "./components/CrudComponent";
+
 require('./bootstrap');
 
 
@@ -11,8 +13,6 @@ require('./bootstrap');
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 Vue.use(VueRouter)
-
-
 /****** Bootstrap ******/
 import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
 import 'bootstrap/dist/css/bootstrap.css'
@@ -34,6 +34,8 @@ Vue.use(IconsPlugin)
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
 
 Vue.component('index-component', require('./components/IndexComponent.vue').default);
+Vue.component('crud-component', require('./components/CrudComponent.vue').default);
+Vue.component('game-component', require('./components/GameComponent.vue').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
